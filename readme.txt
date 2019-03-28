@@ -16,7 +16,8 @@ Version 1.0 - tested on MATLAB R2014a and R2018b
 
 By Hugo Lafaye de Micheaux(1,2) and Thomas Gautrais(1)
 
-(1) Laboratoire Hubert Curien UMR 5516, Université de Lyon, UJM-Saint-Etienne, CNRS, IOGS, F-42023, Saint-Etienne, France
+(1) Laboratoire Hubert Curien UMR 5516, Université de Lyon, UJM-Saint-Etienne,
+    CNRS, IOGS, F-42023, Saint-Etienne, France
 (2) Univ. Grenoble Alpes, Irstea, ETNA, 38000 Grenoble, France
 
 
@@ -105,19 +106,25 @@ Here are some details about the tracking parameters:
   needed. So run detection before tracking.
 
 - The three value parameters for the computation of motion states should not be
-  changed if user is not informed on their specific use. Please read paper [3] 
+  changed if user is not informed on their specific use. Please read paper [3]
   or PhD thesis [2] for more details.
 
 
 ___________
 Data format
 
-The detection results are stored in a '.mat' file which contains especially the variable 'detectData' being a cell array of detection matrices. There is one detection matrix for each image of the sequence. A detection matrix has 3 infos (col) for each detection (row) of the image:
+The detection results are stored in a '.mat' file which contains especially the
+variable 'detectData' being a cell array of detection matrices. There is one
+detection matrix for each image of the sequence. A detection matrix has 3 infos
+(col) for each detection (row) of the image:
   1. x-coordinate of the detection
   2. y-coordinate of the detection
   3. category of the detection ('0' for black bead, '1' for transparent bead)
 
-The tracking results are stored in a '.mat' file which contains especially the variable 'trackData' being a cell array of tracking matrices. There is one tracking matrix for each image of the sequence. A tracking matrix has 9 infos (col) for each target (row) of the image:
+The tracking results are stored in a '.mat' file which contains especially the
+variable 'trackData' being a cell array of tracking matrices. There is one
+tracking matrix for each image of the sequence. A tracking matrix has 9 infos
+(col) for each target (row) of the image:
   1. x-coordinate of the target
   2. y-coordinate of the target
   3. category of the target ('0' for black bead, '1' for transparent bead)
@@ -126,8 +133,10 @@ The tracking results are stored in a '.mat' file which contains especially the v
   6. y-velocity of the target
   7. row of the target in previous tracking matrix ('0' if no previous)
   8. row of the target in next tracking matrix ('0' if no next)
-  9. motion state of the target ('0' for resting, '1' for rolling, '2' for saltating, '3' for unknown)
-It also contains the variable 'trackInfo' being a matrix of target information. A target (row) has 2 infos (col):
+  9. motion state of the target ('0' for resting, '1' for rolling, '2' for
+     saltating, '3' for unknown)
+It also contains the variable 'trackInfo' being a matrix of target information.
+A target (row) has 2 infos (col):
   1. image number where the target starts
   2. length of the target
 
