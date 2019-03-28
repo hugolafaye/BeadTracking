@@ -1,0 +1,7 @@
+diamBlackBead	0.006	m
+diamTransBead	0.004	m
+rateDiamTransBeadInside	0.6	oftotaldiam
+mByPx	0.0002056	m/px
+acqFreq	130	im/s
+vMax	0.83	m/s
+flumeDirection	-1	righttoleft
