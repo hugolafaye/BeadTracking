@@ -221,21 +221,21 @@ References
 
 [2] Lafaye de Micheaux, H. (2017). Image processing for segregation in bedload
     sediment transport: morphology and tracking. PhD Thesis in French,
-	Université de Lyon.
-	url: https://tel.archives-ouvertes.fr/tel-02102694
+    Université de Lyon.
+    url: https://tel.archives-ouvertes.fr/tel-02102694
 	
 [3] Lafaye de Micheaux, H., Ducottet, C., Frey, P. (2016). Online multi-model
     particle filter-based tracking to study bedload transport. International
-	Conference on Image Processing (ICIP), IEEE, 3489-3493.
-	doi: https://doi.org/10.1109/ICIP.2016.7533008
+    Conference on Image Processing (ICIP), IEEE, 3489-3493.
+    doi: https://doi.org/10.1109/ICIP.2016.7533008
 
 [4] Hergault, V., Frey, P., Métivier, F., Barat, C., Ducottet, C., Böhm, T.,
     Ancey, C. (2010). Image processing for the study of bedload transport of
-	two-size spherical particles in a supercritical flow. Experiments in Fluids,
-	Springer, 49(5), 1095-1107.
-	doi: https://doi.org/10.1007/s00348-010-0856-6
+    two-size spherical particles in a supercritical flow. Experiments in Fluids,
+    Springer, 49(5), 1095-1107.
+    doi: https://doi.org/10.1007/s00348-010-0856-6
 	
 [5] Böhm, T., Frey, P., Ducottet, C., Ancey, C., Jodeau, M., Reboud, J.-L
     (2006). Two-dimensional motion of a set of particles in a free surface flow
-	with image processing. Experiments in Fluids, Springer, 41(1), 1-11.
-	doi: https://doi.org/10.1007/s00348-006-0134-9
+    with image processing. Experiments in Fluids, Springer, 41(1), 1-11.
+    doi: https://doi.org/10.1007/s00348-006-0134-9
